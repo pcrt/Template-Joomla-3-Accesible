@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="3.3" type="template" client="site" method="upgrade">
+	<name>joomla-accessibile</name>
+	<creationDate>19/10/20</creationDate>
+	<author>Eddy Prosperi - Protocolli Creativi</author>
+	<authorEmail>info@protocollicreativi.it</authorEmail>
+	<authorUrl>info@protocollicreativi.it</authorUrl>
+	<copyright>Copyright (C) 2022 Protocolli Creativi</copyright>
+	<license>GNU General Public License version 1 or later;</license>
+	<version>1.0</version>
+	<description>Template Joomla Accessibile realizzato da Protocolli Creativi</description>
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>icons</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>svg</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>logo</position>
+		<position>search</position>
+		<position>header</position>
+		<position>left</position>
+		<position>percorso</position>
+		<position>subtitle</position>
+		<position>menuprincipale</position>
+		<position>user</position>
+		<position>userbottom</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom4</position>
+		<position>copyright</position>
+		<position>footer</position>
+	</positions>
+</extension>
