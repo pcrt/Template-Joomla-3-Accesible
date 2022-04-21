@@ -24,13 +24,13 @@ if ($tagId = $params->get('tag_id', ''))
 			<nav class="navbar navbar-expand-lg has-megamenu">
 				<button class="custom-navbar-toggler" type="button" aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav1">
 					<svg class="icon icon-sm">
-					<use xlink:href="/templates/joomla-designitalia/svg/sprite.svg#it-burger"></use>
+					<use xlink:href="/templates/joomla-accessibile/svg/sprite.svg#it-burger"></use>
 					</svg>
 				</button>
 				<div class="navbar-collapsable" id="nav1" style="display: none;">
 					<div class="overlay" style="display: none;"></div>
 						<div class="close-div">
-							<button class="btn close-menu" type="button"><svg class="icon icon-lg icon-light"><use xlink:href="/templates/joomla-designitalia/svg/sprite.svg#it-close"></use></svg></button>
+							<button class="btn close-menu" type="button"><svg class="icon icon-lg icon-light"><use xlink:href="/templates/joomla-accessibile/svg/sprite.svg#it-close"></use></svg></button>
 						</div>
 						<div class="menu-wrapper">
 							<ul class="navbar-nav <?php echo $class_sfx; ?>" <?php echo $id; ?>>

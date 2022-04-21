@@ -70,34 +70,3 @@ JLoader::register('BannerHelper', JPATH_ROOT . '/components/com_banners/helpers/
 <?php endif; ?>
 </div>
 
-
-	<script type="text/javascript">
-    jQuery(document).ready(function() {
-
-    //Carosello link utili
-    $('#linkutili').owlCarousel({
-        loop:true,
-        margin:30,
-        dots:false,
-        nav:false,
-        items:10,
-        autoplayTimeout:3000,/*,
-        animateOut: 'fadeOut'*/
-        responsive:{
-            0:{
-                margin:10,
-                items:4
-            },
-            768:{
-                margin:30,
-                items:10
-            }
-        }
-
-    })
-
-
-});
-
-
-</script>
